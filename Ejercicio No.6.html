@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Pacientes</title>
+
+    <style>
+        body {
+            background-color: #eaf6f6;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c7a7b;
+        }
+
+        form {
+            width: 400px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            border-color: #2c7a7b;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Registro de trabajadores</h1>
+
+    <form>
+        <input type="text" placeholder="Ingrese su nombre">
+
+        <label>Correo electrónico:</label>
+        <input type="email" placeholder="Ingrese su correo">
+
+        <label>Teléfono:</label>
+        <input type="tel" placeholder="Ingrese su teléfono">
+
+        <label>Fecha de nacimiento:</label>
+        <input type="date">
+
+        <label>Motivo de consulta:</label>
+        <input type="text" placeholder="Escriba el motivo de su consulta">
+
+        <button type="submit">Guardar</button>
+    </form>
+
+</body>
+</html>
